@@ -52,6 +52,7 @@ install:
 
 build_script:
 - npm run prepublish
+- cp -f hid.c hidapi/windows/hid.c
 - npm install --build-from-source
 
 test_script:
