@@ -70,4 +70,4 @@ matrix:
 
 # uncomment the below to have artifacts saved
 artifacts:
-- path: prebuilds
+- path: build/Release
